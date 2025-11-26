@@ -97,7 +97,19 @@ Major required components are listed below:
 #### 3.3 (6%) Software Design
 Use a [flowchart](https://en.wikipedia.org/wiki/Flowchart) or a [algorithm/pseudocode table](https://www.overleaf.com/learn/latex/Algorithms) or a [itemized list](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#lists) to explain your wall avoidance strategy.
 
+-Once button pressed
+-     move forward.
+-     - if obstacle detected within 0.5m (to account for approacing at an angle).
+-         - stop.
+-         - back up.
+-         - turn right for 0.2 seconds.
+-      repeate until shutdown.
+
+
 #### 3.4 (4%) Energy Efficient Path Planning 
 > The goal is using this robot to cover a rectangle-shape area.
 > Do your research, make reasonable assumptions and propose a path pattern for the robot to follow.
-> Please state why this pattern is energy efficient.  
+> Please state why this pattern is energy efficient.
+>     The most efficient path would be the "lawnmower" where it moves in a stright line till it reaches the wall then it will stop turn 180 lining up to the edge of the previous path and continue doing this till the whole area is covered. it is most effective since it takes less power to move in a straight line, also this has the least amount of turns nessecary, and there is no path overlap.
+>
+> I know this from my time mowing my yard all summer, and my family farms 400 acers and this is the same path as the combines.
